@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './bootstrap.min.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          Test
-        </p>
+function App({data}) {
+  return (
+    <div className="container-fluid">
+      <Picture {...data}/>
+    </div>
+  );
+}
+
+function Picture({image}) {
+  return (
+    <div className="row">
+      <div className="col-2 offset-1">
+        <p>{image.text}</p>
+        <img src={image.imageUrl} className="image" alt="image"/>
       </div>
-    );
-  }
+    </div>
+  )
 }
 
 export default App;
