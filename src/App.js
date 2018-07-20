@@ -14,8 +14,8 @@ function App({data}) {
 function Picture({image}) {
   return (
     <div className="row">
-      <div className="col-2 offset-1">
-        <p>{image.text}</p>
+      <div className="col-10 offset-1">
+        <h1>{image.text}</h1>
         <img src={image.imageUrl} className="image" alt="image"/>
       </div>
     </div>
