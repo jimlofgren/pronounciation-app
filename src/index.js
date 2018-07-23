@@ -7,12 +7,8 @@ import {shuffle, sample} from 'underscore';
 
 const images = [
     {
-        text: "sparka",
-        imageUrl: "https://cdn.pixabay.com/photo/2015/01/26/22/40/child-613199_960_720.jpg"
-    },
-    {
         text: "spaghetti",
-        imageUrl: "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_960_720.jpg"
+        imageUrl: "https://images.unsplash.com/photo-1516685018646-549198525c1b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b62378793198b7e3934d04f96dac9e3e&auto=format&fit=crop&w=1050&q=80"
     },
     {
         text: "kaka",
@@ -20,31 +16,11 @@ const images = [
     },
     {
         text: "ko",
-        imageUrl: "https://cdn.pixabay.com/photo/2016/10/04/23/52/cow-1715829_960_720.jpg"
+        imageUrl: "https://images.unsplash.com/photo-1467217322460-5f03dc33a28e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd8c223fa37d553ad9c792186bf3a9a3&auto=format&fit=crop&w=1950&q=80"
     },
     {
-        text: "sparka",
-        imageUrl: "https://cdn.pixabay.com/photo/2015/01/26/22/40/child-613199_960_720.jpg"
-    },
-    {
-        text: "spaghetti",
-        imageUrl: "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_960_720.jpg"
-    },
-    {
-        text: "kaka",
-        imageUrl: "https://images.unsplash.com/photo-1520406089332-69976b2722f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d97b705c518eb888f833401e69f42b77&auto=format&fit=crop&w=1049&q=80"
-    },
-    {
-        text: "ko",
-        imageUrl: "https://cdn.pixabay.com/photo/2016/10/04/23/52/cow-1715829_960_720.jpg"
-    },
-    {
-        text: "sparka",
-        imageUrl: "https://cdn.pixabay.com/photo/2015/01/26/22/40/child-613199_960_720.jpg"
-    },
-    {
-        text: "spaghetti",
-        imageUrl: "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_960_720.jpg"
+        text: "simma",
+        imageUrl: "https://images.unsplash.com/photo-1506322845680-6e3e1a5b1de1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cce7bb6598e36e284720a0799bab43da&auto=format&fit=crop&w=969&q=80"
     },
 ];
 
