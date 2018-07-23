@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import './bootstrap.min.css';
 
@@ -16,7 +15,7 @@ function Picture({image}) {
     <div className="row">
       <div className="col-10 offset-1">
         <h1>{image.text}</h1>
-        <img src={image.imageUrl} className="image" alt="image"/>
+        <img src={image.imageUrl} className="image" alt="randomImage"/>
       </div>
     </div>
   )
