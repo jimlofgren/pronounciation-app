@@ -16,7 +16,7 @@ const images = [
     },
     {
         text: "kaka",
-        imageUrl: "https://cdn.pixabay.com/photo/2016/11/17/22/53/biscuit-1832917_960_720.jpg"
+        imageUrl: "https://images.unsplash.com/photo-1520406089332-69976b2722f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d97b705c518eb888f833401e69f42b77&auto=format&fit=crop&w=1049&q=80"
     },
     {
         text: "ko",
@@ -32,7 +32,7 @@ const images = [
     },
     {
         text: "kaka",
-        imageUrl: "https://cdn.pixabay.com/photo/2016/11/17/22/53/biscuit-1832917_960_720.jpg"
+        imageUrl: "https://images.unsplash.com/photo-1520406089332-69976b2722f5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d97b705c518eb888f833401e69f42b77&auto=format&fit=crop&w=1049&q=80"
     },
     {
         text: "ko",
