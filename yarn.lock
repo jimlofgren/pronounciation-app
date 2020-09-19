@@ -2041,6 +2041,10 @@ doctrine@^2.0.0:
   dependencies:
     esutils "^2.0.2"
 
+dom-confetti@~0.0.11:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/dom-confetti/-/dom-confetti-0.0.15.tgz#fd7dd6888da3dc6b54fd53326c8fa826ef25106b"
+
 dom-converter@~0.1:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.1.4.tgz#a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
@@ -4415,8 +4419,8 @@ merge-descriptors@1.0.1:
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
 
 merge@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -5591,6 +5595,12 @@ react-dev-utils@^5.0.1:
     sockjs-client "1.1.4"
     strip-ansi "3.0.1"
     text-table "0.2.0"
+
+react-dom-confetti@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/react-dom-confetti/-/react-dom-confetti-0.0.10.tgz#6cde7af4af974ecf98ddf9da95c938144c68a4f0"
+  dependencies:
+    dom-confetti "~0.0.11"
 
 react-dom@^16.4.1:
   version "16.4.1"
